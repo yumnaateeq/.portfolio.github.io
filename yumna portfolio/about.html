@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yumna's portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="40px"
+                            viewBox="0 -960 960 960" width="40px" fill="white">
+                            <path
+                                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                        </svg></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+            <ul>
+
+                <li class="logo"><a href="index.html"><img src="logo.png" alt=""></a></li>
+                <li class="hideOnMobile"><a href="index.html">Home</a></li>
+                <li class="hideOnMobile"><a href="about.html">About</a></li>
+                <li class="hideOnMobile"><a href="project.html">Projects</a></li>
+                <li class="hideOnMobile"><a href="contact.html">Contact us</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                            height="40px" viewBox="0 -960 960 960" width="30px" fill="white">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                        </svg></a></li>
+            </ul>
+        </nav>
+        <script>
+            function showSidebar() {
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+            function hideSidebar() {
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'none'
+            }
+        </script>
+    </header>
+    <hr class="one">
+    <hr class="two">
+    <hr class="three">
+
+    <section class="about-section-1">
+        <div class="about-image" data-aos="fade-right" data-aos-duration="1000">
+            <img src="girl 2.png" alt="">
+        </div>
+        <div class="about-text" data-aos="fade-left" data-aos-duration="1000">
+            <h2> <span>About</span> Me</h2>
+            <p>Hello, my name is Yumna. I am 21 years old. I'm a professional Graphic Designer & Illustrator with more
+                than 2 years experience. I am passionate about consistently advancing my knowledge and skills. I have
+                attended multiple seminars and boot camps on coding and game development.
+            </p>
+        </div>
+    </section>
+    <hr>
+    <section class="about-section-2">
+        <div class="education" data-aos="fade-right" data-aos-duration="1000">
+            <h2> <span>Edu</span>cation</h2>
+            <div class="num-1">
+                <h5>2020</h5>
+                <div>
+                    <h4><span> Matric</span></h4>
+                    <li>GOVT Girls Karachi Secondary School</li>
+                    <li>Board of secondary education Karachi</li>
+                </div>
+            </div>
+            <div class="num-1">
+                <h5>2022</h5>
+                <div>
+                    <h4><span> Intermediate</span></h4>
+                    <li>GOVT Girls Pilot secondary college</li>
+                    <li>Board of secondary education Karachi</li>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills" data-aos="fade-left" data-aos-duration="1000">
+            <h2> <span>Ski</span>lls</h2>
+            <li>I can design logos</li>
+            <li>I can design flyers and banners</li>
+            <li>I can design your visiting cards etc...</li>
+            <li>I can do social media post</li>
+            <li>I can do Mockups</li>
+        </div>
+
+    </section>
+    <div class="software" data-aos="fade-up" data-aos-duration="1000">
+        <h2> <span>Sof</span>tware</h2>
+            <li><img src="photo.png" alt="" width="80px"> Adobe Photoshop</li>
+            <li><img src="adobe.png" alt="" width="80px"> Adobe Illustrator</li>
+            <li><img src="canva.jpeg" alt="" width="80px"> Canva</li>
+
+
+        <div>
+        </div>
+    </div>
+    <hr class="four">
+    <hr class="five">
+    <hr class="six">
+    <footer>
+        <div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact me </a></li>
+            </ul>
+        </div>
+        <div class="icons">
+            <img src="facebook.png" alt="" width="30px">
+            <a href="https://www.instagram.com/nonstop_graphic?igsh=MTQ0Ym9ka2N3ZHJqbQ==" target="_blank"> <img src="instagram.png" alt="" width="30px"></a>
+            <a href="https://www.linkedin.com/feed/" target="_blank"> <img src="linkedin.png" alt="" width="30px"></a>
+        </div>
+        <div class="yum">
+            <h3> <span>Yumna's</span> Portfolio</h3>
+        </div>
+        <div class="mail">
+            <li>yumnaateeq88@gmail.com</li>
+        </div>
+    </footer>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

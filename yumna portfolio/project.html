@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yumna's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="40px"
+                            viewBox="0 -960 960 960" width="40px" fill="white">
+                            <path
+                                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                        </svg></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+            <ul>
+
+                <li class="logo"><a href="index.html"><img src="logo.png" alt=""></a></li>
+                <li class="hideOnMobile"><a href="index.html">Home</a></li>
+                <li class="hideOnMobile"><a href="about.html">About</a></li>
+                <li class="hideOnMobile"><a href="project.html">Projects</a></li>
+                <li class="hideOnMobile"><a href="contact.html">Contact Me </a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                            height="40px" viewBox="0 -960 960 960" width="30px" fill="white">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                        </svg></a></li>
+            </ul>
+        </nav>
+        <script>
+            function showSidebar() {
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+            function hideSidebar() {
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'none'
+            }
+        </script>
+    </header>
+
+
+    <section class="project-1" data-aos="fade-right" data-aos-duration="1500">
+        <h2><span>P</span>r<span>oje</span>ct <span>1</span></h2>
+        <p>LOGO DESIGNS</p>
+        <div class="logos">
+            <img src="Blue Modern  Fashion Brand Art Design Logo JPEG.jpg" alt="">
+            <img src="Food logo 1-01.jpg" alt="">
+            <img src="logos.jpeg" alt="">
+            <img src="marketing agency logo.jpg" alt="">
+            <img src="WhatsApp Image 2024-08-21 at 11.16.00 PM (1).jpeg" alt="">
+            <img src="WhatsApp Image 2024-08-21 at 11.16.00 PM.jpeg" alt="">
+        </div>
+    </section>
+    <hr>
+    <section class="project-2" data-aos="fade-left" data-aos-duration="2500">
+        <h2><span>P</span>r<span>oje</span>ct <span>2</span></h2>
+        <p>MOCKUPS DESIGNS</p>
+        <div class="mockups">
+            <img src="mockup 1 beauty spa.JPG" alt="">
+            <img src="Neutral Flat Lay Business Card Mockup.jpg" alt="">
+            <img src="mockup 2 beauty spa.JPG" alt="">
+            <img src="smartmockups_m02qepij.jpg" alt="">
+        </div>
+    </section>
+    <hr>
+    <section class="project-3" data-aos="fade-right" data-aos-duration="2500">
+        <h2><span>P</span>r<span>oje</span>ct <span>3</span></h2>
+        <p>SOCIAL MEDIA POSTS</p>
+        <div class="posts">
+            <img src="social media post.jpg" alt="">
+            <img src="Coffe poster.jpg" alt="">
+            <img src="Yellow And Black Modern Coffee Day Social Media Post.jpg" alt="" >
+
+
+        </div>
+    </section>
+    <hr>
+    <section class="project-4" data-aos="fade-left" data-aos-duration="3000">
+        <h2><span>P</span>r<span>oje</span>ct <span>4</span></h2>
+        <p>BANNERS DESIGNS</p>
+        <div class="banners">
+            <img src="Gaming banner.jpg" alt="">
+            <img src="gaming banner 1.jpeg" alt="">
+            <img src="gaming banner 2.jpeg" alt="">
+            <img src="gaming banner3.jpeg" alt="">
+        </div>
+    </section>
+    <hr>
+    <section class="project-5" data-aos="fade-right" data-aos-duration="3000">
+        <h2><span>P</span>r<span>oje</span>ct <span>5</span></h2>
+        <p>BRANDING DESIGNS</p>
+        <div class="branding">
+            <img src="nike poster.jpg" alt="" >
+            <img src="Beauty and Spa Logo branding.jpg" alt="" >
+            <img src="branding t shirts.jpg" alt="" height="300px" >
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact me </a></li>
+            </ul>
+        </div>
+        <div class="icons">
+            <img src="facebook.png" alt="" width="30px">
+            <a href="https://www.instagram.com/nonstop_graphic?igsh=MTQ0Ym9ka2N3ZHJqbQ==" target="_blank"> <img src="instagram.png" alt="" width="30px"></a>
+            <a href="https://www.linkedin.com/feed/" target="_blank"> <img src="linkedin.png" alt="" width="30px"></a>
+
+        </div>
+        <div class="yum">
+            <h3> <span>Yumna's</span> Portfolio</h3>
+        </div>
+        <div class="mail">
+            <li>yumnaateeq88@gmail.com</li>
+        </div>
+    </footer>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
